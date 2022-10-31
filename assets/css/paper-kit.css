@@ -5810,7 +5810,7 @@ License - nucleoapp.com/license/
 
 .footer {
   background-attachment: fixed;
-  position: fixed;
+  position: relative;
   line-height: 20px;
   width: 100%;
 }
