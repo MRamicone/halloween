@@ -5867,6 +5867,7 @@ License - nucleoapp.com/license/
 .footer {
   background-color: #000000;
   line-height: 36px;
+  position: relative;
 }
 
 .footer.footer-black h4 {
