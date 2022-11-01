@@ -5801,6 +5801,15 @@ License - nucleoapp.com/license/
   padding-left: 3px;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  background-color: #000000;
+  z-index: 1;
+}
+
 .footer .footer-nav ul {
   padding-left: 0;
   margin-bottom: 0;
@@ -5847,15 +5856,6 @@ License - nucleoapp.com/license/
 
 .footer .heart {
   color: #EB5E28;
-}
-
-.footer {
-  background-color: #000000;
-  line-height: 36px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
 }
 
 .footer.footer-black h4 {
