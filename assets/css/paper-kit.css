@@ -5853,7 +5853,9 @@ License - nucleoapp.com/license/
   background-color: #000000;
   line-height: 36px;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
 }
 
 .footer.footer-black h4 {
