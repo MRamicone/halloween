@@ -3486,13 +3486,6 @@ input[type="file"]>input[type="button"]::-moz-focus-inner {
   color: #FFFFFF !important;
 }
 
-.offline-doc .footer {
-  position: absolute;
-  width: 100%;
-  background: transparent;
-  bottom: 0;
-  z-index: 3;
-}
 
 .offline-doc .footer nav>ul a:not(.btn),
 .offline-doc .footer .copyright {
@@ -5808,14 +5801,6 @@ License - nucleoapp.com/license/
   padding-left: 3px;
 }
 
-.footer {
-  background-attachment: fixed;
-  position: relative;
-  line-height: 20px;
-  width: 100%;
-}
-
-
 .footer .footer-nav ul {
   padding-left: 0;
   margin-bottom: 0;
@@ -5867,7 +5852,8 @@ License - nucleoapp.com/license/
 .footer {
   background-color: #000000;
   line-height: 36px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer.footer-black h4 {
